@@ -1,0 +1,9 @@
+:root {
+    --vermelho-titulo: rgb(175, 78, 78);
+    --cinza-fundo: rgb(114, 27, 27);
+    --bordo-fonte: rgb(70, 1, 1); 
+    --branco: rgb(255, 255, 255);
+    --preto-transparente: #00000F;
+    --preto: #000000;
+    --bordo-rodape: #3f0c0c;
+}

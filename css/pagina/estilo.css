@@ -10,46 +10,71 @@ body {
 
 h1 {
     color: var(--branco);
+
 }
 
 .cabecalhoPrincipal .explorar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .cabecalhoPrincipal-nav {
     display: flex;
+    align-items: center;
+    border-color: var(--branco);
+    
     
 }
 
 .cabecalhoPrincipal-nav-link {
-    margin: 10px;
-    border: 2px;
-    box-sizing: box-border;
+    color: var(--branco);
+    font-weight: bold;
+    margin: 15px;
+    box-sizing: border-box;
+    border: 2px solid var(--branco);
+    padding: 15px;
     border-radius: 10px;
+    background-color: var(--preto);
+    box-shadow: 10px 10px 20px var(--preto);
+
+}
+
+.cabecalhoPrincipal-nav-link:hover {
+    background-color: var(--vermelho-titulo);
+    transition-duration: 0.5s;
+   
+}
+
+.cabecalho_rodape {
+    color: var(--branco);
+    font-weight: bold;
+    
 }
 /*#festa {
     width: 100%;
     border: 0 0 20px;
 }*/
 
+.txtBusca {
+    width: 150px;
+    padding: 4px;
+    border-radius: 12px;
+    background-color: var(--cinza);
+}
+
 #player {
     width: 50px;
+    border
 }
 
-#Busca #btnBusca {
-    width: 40px;
+ .Busca {
     background-color: var(--branco);
-    
 }
 
-.txtBusca {
-    padding: 10px;
-    border-radius: 20px;
-    width: 200px;
-    
-}
+
 
 /*#btnBusca {
 
@@ -102,17 +127,15 @@ h2, .Musica {
 	box-sizing: border-box;
 	border: 2px solid var(--branco);
 	border-radius: 10px;
-    transition: 0.6s all;
 	cursor: pointer;
     box-shadow: 10px 10px 20px var(--preto);
-    transition-duration: 0.5s;
     background-color: var(--preto);
     margin-left: 20px;
 } 
 
 .Album:hover {
-    border: 35px;
     background-color: var(--vermelho-titulo);
+    transition-duration: 0.5s;
 }
 
 footer {
